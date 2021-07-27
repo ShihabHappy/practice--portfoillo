@@ -7,7 +7,7 @@ h1{
 .color-orange{
     color: rgb(15, 185, 143);
 }
-section{
+.flexible-contenir{
     display: flex;
     margin-bottom: 150px;
 }
@@ -34,4 +34,26 @@ section{
 }
 #right-margin{
     margin-right: 10%;
+}
+.exp-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(21, 145, 114);
+    
+}
+.img{
+    width: 100%;
+}
+#full-dev{
+    border-left: 10px solid;
+    border-image:linear-gradient(rgb(72, 253, 208),rgb(21, 145, 114)) ;
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 10px solid;
+    border-image:linear-gradient(rgb(21, 145, 114),rgb(72, 253, 208)) ;
+    border-image-slice: 1;
 }
